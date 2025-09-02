@@ -4,7 +4,7 @@ import pytest
 import requests
 from .schemas.pet_schema import PET_SCHEMA
 
-BASE_URL = "http://5.181.109.28:9090/api/v3"
+BASE_URL = "https://swagger.rv-school.ru/api/v3"
 
 
 @allure.feature("Pet")
